@@ -7,15 +7,12 @@ body {
      /* has to be a flexbox so contents can be arranged */
      display: flex;     
      flex-direction: column;   
-     background: #50C9C3;  /* fallback for old browsers */
-     background: -webkit-linear-gradient(to top, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 */
-     background: linear-gradient(to top, #96DEDA, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+     background: #f9c728;  /* fallback for old browsers */
      }
 
 
 .button1{
-    background-color: #4389a2;
+    background-color: #F2994A;
     border: none;
     color: white;
     border-radius: 20px;
@@ -27,7 +24,7 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     position: absolute;
-    top: 77%;
+    top: 90%;
 
 
 }
@@ -42,7 +39,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #314755;
+    background-color: #f9c728;
 }
 
 li {
@@ -51,7 +48,7 @@ li {
 
 li a, .dropbtn {
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -59,17 +56,17 @@ li a, .dropbtn {
 
 li a, .dropbtn2 {
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: #1FA2FF;
+    background-color: #F7971E;
 }
 li a:hover, .dropdown2:hover .dropbtn {
-    background-color: #1FA2FF;
+    background-color: #F7971E;
 }
 li.dropdown {
     display: inline-block;
@@ -133,5 +130,7 @@ li.dropdown2 {
 #photo1{
   width: 100%;
   height: 35%;
- }
+
+}
+
 
